@@ -3,8 +3,8 @@
 #include <time.h>
 	int main() {
 
-		int jogador, computador,rep;
-		while(rep = 1){
+		int jogador,computador,rep = 1;
+		while(rep == 1){
 		printf("----- Jogo de pedra, papel e tesoura -----\n");
 		printf("Digite 1 para escolher PEDRA\n");
 		printf("Digite 2  para escolher PAPEL\n");
